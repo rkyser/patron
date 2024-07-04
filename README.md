@@ -46,6 +46,6 @@ var summary = uriSummarizer.Summarize("/users/1234/profile/5678");
 // prints "/users/1234/profile/5678"
 Console.WriteLine(summary.Input);
 
-// prints
+// prints "/users/{userId}/profile/{profileId}"
 Console.WriteLine(summary.Summary);
 ```
